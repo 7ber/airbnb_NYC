@@ -1,7 +1,10 @@
-# Springboard Data Science Track \nCapstone Project-1
+# Springboard Data Science Track \n Capstone Project-1
 
 # airbnb_NYC
-## This dataset is going to be used to create a model that explores pricing metrics in NYC and predicts rental prices for the upcoming period. Targeted stakeholders are: -NYC Housing Authority -Tourism Tour Organizations while accounting their tour costs -Tourists planning to visit NYC -Airbnb App users -Airbnb Hosts And Potential Hosts while balancing their rent prices   -Airbnb Application Improvers -Other Hosting Application Member Users(such as Booking.com) -NewBie Hosting Application Startup Investors.  This project is going to be useful for these beneficiaries because:
+#### This dataset is going to be used to create a model that explores pricing metrics in NYC and predicts rental prices for the upcoming period.
+# Targeted stakeholders are:
+-NYC Housing Authority \n -Tourism Tour Organizations while accounting their tour costs \n -Tourists planning to visit NYC \n -Airbnb App users \n -Airbnb Hosts And Potential Hosts while balancing their rent prices   -Airbnb Application Improvers -Other Hosting Application Member Users(such as Booking.com) -NewBie Hosting Application Startup Investors. 
+This project is going to be useful for these beneficiaries because:
 # Source/Data:
 An open source data set includes 16 columns and 48895 rows provides Airbnb listing information and metrics for hosts, places and geographical features in NYC, NY area between the years 2008 and 2019.
 The data is sourced from the Inside Airbnb website http://insideairbnb.com/get-the-data.html which hosts publicly available data from the Airbnb site.
