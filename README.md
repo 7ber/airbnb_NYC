@@ -1,4 +1,4 @@
-# Springboard Data Science Track \n Capstone Project-1
+# Springboard Data Science Track /n Capstone Project-1
 
 # airbnb_NYC
 #### This dataset is going to be used to create a model that explores pricing metrics in NYC and predicts rental prices for the upcoming period.
