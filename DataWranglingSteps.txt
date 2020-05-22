@@ -1,0 +1,23 @@
+DATA WRANGLING STEPS
+
+1)What kind of cleaning steps did you perform?
+
+-I have dropped ‘host_name’ column that could be unethical to use for future data exploration and predictions
+data.drop(['host_name'], axis=1, inplace=True)
+ 
+2)How did you deal with missing values, if any?
+	-I checked the columns containing null items
+	data.isnull().sum()
+-I filled them with’0’
+	data.fillna({'name':0}, inplace=True)**unlogical
+data.fillna({'last_review':0}, inplace=True)**date time
+data.fillna({'reviews_per_month':0}, inplace=True)
+-I controlled and made sure there is no missing items anymore.
+data.isnull().sum()
+ 
+3)Were there outliers, and how did you handle them?
+	-In ‘price’ column:
+	-Because of the fact that Min price per night: $0, Max price per night: $10000, there were quite observable outliers.
+	-First, I have detected and dropped listings whose price is 0.
+	-Because that the first step was not enough, I have detected other anomalies by using mean() and std() and also sns.boxplot.
+-I ignored them and continue to exploratory analysis with reasonable prices.
