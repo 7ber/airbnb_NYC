@@ -8,9 +8,7 @@ This project is going to be useful for these beneficiaries because:
 # Source/Data:
 An open source data set includes 16 columns and 48895 rows provides Airbnb listing information and metrics for hosts, places and geographical features in NYC, NY area between the years 2008 and 2019.
 The data is sourced from the Inside Airbnb website http://insideairbnb.com/get-the-data.html which hosts publicly available data from the Airbnb site.
-# Business Outcome
-1-
-2-  
+
 # Method/Technique:
 1)EDA/Visualization -Comparing boroughs, locations, geographical features -Comparing hosts, number of their lists -Comparing reviews and their quantity 2)Hypothesis testing (t-test, z-test) -Analysing data above and creating hypothesis e.g: is mean price in borough 1 difference from borough 2 3)Machine Learning -Regression models for predicting listing price
 # Deliverable:
