@@ -20,4 +20,5 @@ data.isnull().sum()
 	-Because of the fact that Min price per night: $0, Max price per night: $10000, there were quite observable outliers.
 	-First, I have detected and dropped listings whose price is 0.
 	-Because that the first step was not enough, I have detected other anomalies by using mean() and std() and also sns.boxplot.
--I ignored them and continue to exploratory analysis with reasonable prices.
+	-When extra expensively listings matter while comapring the boroughs, I used logged prices instead of considering those as an outlier and removing them. Because those listings are real and important data to analyze.  
+        -In all other case, I ignored them and continue to exploratory analysis with reasonable prices.
